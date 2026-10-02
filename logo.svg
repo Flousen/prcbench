@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" role="img" aria-label="PRC Bench logo">
+  <title>PRC Bench</title>
+  <g fill="none" stroke="#14998a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- backrest: top edge rises to a peak -->
+    <path stroke-width="14" d="M68,186 V88 Q68,62 94,62 H150 C205,62 235,20 270,20 C305,20 335,62 390,62 H446 Q472,62 472,88 V186"/>
+    <!-- seat and legs -->
+    <path stroke-width="16" d="M40,186 H500 M88,186 V248 M452,186 V248"/>
+    <!-- PRC -->
+    <g stroke-width="20">
+      <path d="M168,158 V96 H192 A20,20 0 0 1 192,136 H168"/>
+      <path d="M242,158 V96 H266 A20,20 0 0 1 266,136 H242 M266,136 L292,158"/>
+      <path d="M372,105 A30,30 0 1 0 372,149"/>
+    </g>
+  </g>
+</svg>

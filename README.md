@@ -1,8 +1,12 @@
+<p align="center"><img src="logo.svg" alt="PRC Bench logo" width="360"></p>
+
 # PRC Benchmark Circuits
 
 The Peaked Random Circuits (PRCs) used in
 
-> M. Brieger, F. Krötz, M. Chung, D. Kranzlmüller, *Evaluating System-Level Fidelity with Peaked Random Circuits*.
+> M. Brieger, F. Krötz, M. Chung, D. Kranzlmüller, *Evaluating System-Level Fidelity with Peaked Random Circuits*, [arXiv:2605.25983](https://arxiv.org/abs/2605.25983) (2026).
+
+[![arXiv](https://img.shields.io/badge/arXiv-2605.25983-b31b1b.svg)](https://arxiv.org/abs/2605.25983)
 
 A PRC is a mirrored brick-wall circuit $P(\theta)^\dagger R$ of two-qubit gates. $R$ is random, and $P(\theta)$ is optimised so that measuring the circuit on $|0^n\rangle$ gives the all-zero bitstring with high probability.
 
@@ -72,3 +76,20 @@ The construction follows Aaronson and Zhang [1, 2]. The circuit-generation code 
 
 1. S. Aaronson and Y. Zhang, "On verifiable quantum advantage with peaked circuit sampling," arXiv:2404.14493, 2024. https://doi.org/10.48550/arXiv.2404.14493
 2. Y. Zhang, "Complexity and hardness of random peaked circuits," arXiv:2510.00132, 2025. https://doi.org/10.48550/arXiv.2510.00132
+
+## Citation
+
+If you use these circuits, please cite:
+
+```bibtex
+@misc{brieger2026prc,
+  title         = {Evaluating System-Level Fidelity with Peaked Random Circuits},
+  author        = {Brieger, Martin and Kr{\"o}tz, Florian and Chung, Minh and Kranzlm{\"u}ller, Dieter},
+  year          = {2026},
+  eprint        = {2605.25983},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  doi           = {10.48550/arXiv.2605.25983},
+  url           = {https://arxiv.org/abs/2605.25983}
+}
+```
